@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(fonts/Nunito.ttf);
+}
+
+body {
+    color: white;
+    background-color: #000;
+    font-family: Nunito, Helvetica, sans-serif;
+}
+
+space {
+    min-height: 200px;
+    min-width: 100%;
+    border: 1px dotted red;
+}
+
+main {
+    width: 40%;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 3cm;
+    background-color: #303;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.navbarlist{
+    background-color: #84a;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 90%;
+    height: 4%;
+}
+
+.navbartext a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: 1.9em;
+}
+
+.navbarlink {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    height: 100%;
+    background-color: #84a;
+    color: aliceblue;
+    font-size: 1.4em;
+}
+
+.navbarlink:hover {
+    background-color: #a6c;
+    color: aliceblue;
+}
+
+.navbarlink:active {
+    background-color: #d9f;
+    color: black;
+}
+
+.mainimage {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 40%;
+    height: auto;
+    max-width:250px;
+}
